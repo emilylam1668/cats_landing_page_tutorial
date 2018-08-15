@@ -1,0 +1,26 @@
+h1 {
+  color: red
+}
+
+h2 {
+  color: #8674FC
+}
+
+p {
+  color: #00DEA0
+}
+
+.inverted-colors {
+  background-color: #000000
+
+  color: #ffffff
+}
+
+#example-image {
+  border-radius: 25px;
+  border: 5px solid orange;
+}
+
+#unique-item-list {
+  color: #007CED
+}
