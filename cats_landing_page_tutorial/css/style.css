@@ -1,26 +1,40 @@
 h1 {
-  color: red
+  color: black;
+  font-size: 36px;
 }
 
 h2 {
-  color: #8674FC
+  color: black;
 }
 
 p {
-  color: #00DEA0
+  font-size: 20px;
 }
 
-.inverted-colors {
-  background-color: #000000
-
-  color: #ffffff
+li {
+  padding-bottom: 8px;
 }
 
-#example-image {
-  border-radius: 25px;
-  border: 5px solid orange;
+ul {
+  background-color: #F7F9FC;
+  margin-top: 25px;
+  padding: 30px 55px;
+  border-radius: 8px;
 }
 
-#unique-item-list {
-  color: #007CED
+header {
+  background-color: #F0F8FF;
+  padding: 200px 0;
+  background-image: url("../img/jumping_cats.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.first-section {
+  background-color: white;
+}
+
+.section {
+  padding: 60px 0 40px;
 }
