@@ -11,11 +11,11 @@ p {
   font-size: 20px;
 }
 
-li {
+first-section li {
   padding-bottom: 8px;
 }
 
-ul {
+first-section ul {
   background-color: #F7F9FC;
   margin-top: 25px;
   padding: 30px 55px;
@@ -37,4 +37,8 @@ header {
 
 .section {
   padding: 60px 0 40px;
+}
+
+body {
+  color: #4a4a4a;
 }
