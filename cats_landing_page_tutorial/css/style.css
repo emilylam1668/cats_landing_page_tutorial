@@ -97,6 +97,20 @@ header {
   width: 46px;
 }
 
+third-section {
+  background-color: white;
+}
+
+.third-section img {
+  margin-top: 35px;
+}
+
+@media (min-width: 768px) {
+  .third-section img {
+    margin-top: 0;
+  }
+}
+
 body {
   color: #4a4a4a;
 }
