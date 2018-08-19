@@ -3,6 +3,12 @@ h1 {
   font-size: 36px;
 }
 
+@@media (min-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
 h2 {
   color: black;
 }
@@ -11,15 +17,31 @@ p {
   font-size: 20px;
 }
 
-first-section li {
+.first-section li {
   padding-bottom: 8px;
 }
 
-first-section ul {
+.first-section ul {
   background-color: #F7F9FC;
   margin-top: 25px;
   padding: 30px 55px;
   border-radius: 8px;
+}
+
+.first-section img {
+  margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+  .first-section img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-section img {
+    margin-bottom: 0;
+  }
 }
 
 header {
