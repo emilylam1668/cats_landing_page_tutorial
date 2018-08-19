@@ -111,6 +111,13 @@ third-section {
   }
 }
 
+.fourth-section {
+  background-color: #F0F8FF;
+  background-image: url("../img/remaining_assets/cattern.png");
+  background-repeat: repeat;
+  background-size: 192px 192px;
+}
+
 body {
   color: #4a4a4a;
 }
